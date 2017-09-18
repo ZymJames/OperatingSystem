@@ -9,11 +9,11 @@ Git托管地址：https://github.com/ZymJames/OperatingSystem<br>
     而在应用程序的代码编写完成后，还需要将其安装到源码的文件系统中。此时我们要做的就是为应用程序编译链接，然后将编译好的应用程序打成tar包，再写入磁盘映像的扇区中，启动系统后，将tar包解压到文件系统中，这样就能把写好的应用程序放到文件中，供用户使用。<br>
 这次我们写的应用程序有如下几个：<br>
 简单动画的生成<br>
-![](https://github.com/ZymJames/OperatingSystem/blob/master/cartoon.jpg)
+![](https://github.com/ZymJames/OperatingSystem/blob/master/cartoon.jpg)<br>
 计算器（输入简单的加减乘除运算式，可以得出结果）<br>
-![](https://github.com/ZymJames/OperatingSystem/blob/master/calculator.png)
+![](https://github.com/ZymJames/OperatingSystem/blob/master/calculator.png)<br>
 扫雷小游戏（生成不同难度的扫雷地图，玩法规则与经典扫雷相同）<br>
-![](https://github.com/ZymJames/OperatingSystem/blob/master/mine.png)
+![](https://github.com/ZymJames/OperatingSystem/blob/master/mine.png)<br>
 心得体会<br>
 经过本次项目，我们对操作系统之于计算机的作用有了更直观的认识，实际上操作系统也是一个程序，但它是能够直接管理和控制计算机硬件与软件资源的最基本的系统软件，其他软件的运行，需要操作系统提供接口，而用户使用计算机，也需要操作系统提供接口。在这一次应用程序的编写中，我们就学习到，操作系统是如何先将机器语言转换成汇编语言，再用汇编语言生成了一系列库函数以供高级语言调用并编写程序，而编写好程序后，还要将程序写入磁盘扇区，才能最终进入文件系统供用户使用。从前我们一直疑惑为什么C语言能跑出这样那样的效果呢，这些高级语言为什么编写结束后就生成了一个文件，然后我们点击这个文件就能跑程序了呢。而在对操作系统有了更深入的理论学习和实践后，我们的疑惑多少得到了解答。
 
