@@ -9,4 +9,4 @@ Git托管地址：https://github.com/ZymJames/OperatingSystem<br>
     而在应用程序的代码编写完成后，还需要将其安装到源码的文件系统中。此时我们要做的就是为应用程序编译链接，然后将编译好的应用程序打成tar包，再写入磁盘映像的扇区中，启动系统后，将tar包解压到文件系统中，这样就能把写好的应用程序放到文件中，供用户使用。<br>
 这次我们写的应用程序有如下几个：<br>
 
-![github](/res/drawable-hdpi/ic_launcher.png)  
+![简单动画的生成]https://github.com/ZymJames/OperatingSystem/blob/master/cartoon.jpg
